@@ -17,18 +17,18 @@ const Footer = () => {
                     <div className="centerFooter1">
                         <div><h4 class="h4" style={{ fontWeight: 'bold' }}>INFORMATION</h4></div>
                         <div style={{ paddingRight: '52px' }}>
-                            <ul><li><a>About Us</a></li><li><a href="/pages/contact-us">Contact Us</a></li><li><a href="/pages/bulk-order">Bulk Order</a></li></ul>
+                            <ul><li><a className='text-white'>About Us</a></li><li><a href="/pages/contact-us">Contact Us</a></li><li><a href="/pages/bulk-order">Bulk Order</a></li></ul>
                         </div>
                     </div>
 
                     <div className="rightFooter1">
                         <div><h4 class="h4" style={{ fontWeight: 'bold' }}>CUSTOMER SERVICES</h4></div>
                         <div style={{ paddingRight: '5px' }} className='customService'>
-                            <ul><li><a>Shipping Policy</a></li>
-                                <li><a>Return and Replace Policy</a></li>
-                                <li><a>Cancellation Policy</a></li>
-                                <li><a>Return and Replace Portal</a></li>
-                                <li><a>Terms of Service</a></li></ul>
+                            <ul><li><a className='text-white'>Shipping Policy</a></li>
+                                <li><a className='text-white'>Return and Replace Policy</a></li>
+                                <li><a className='text-white'>Cancellation Policy</a></li>
+                                <li><a className='text-white'>Return and Replace Portal</a></li>
+                                <li><a className='text-white'>Terms of Service</a></li></ul>
                         </div>
                     </div>
                 </div>
