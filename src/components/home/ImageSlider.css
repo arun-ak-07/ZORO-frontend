@@ -35,3 +35,10 @@
 .slideIconsMainI{
     position: relative;
 }
+
+@media (max-width: 768px) {
+    .narutoCardChange1{
+        height: 100px;
+        width: 100px;
+    }
+}

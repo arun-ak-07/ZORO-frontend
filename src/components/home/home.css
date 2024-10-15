@@ -20,7 +20,7 @@ body {
 
 .header01 {
     width: 100%;
-    background-color: blue;
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,9 +196,10 @@ body {
     font-size: 14px;
     letter-spacing: 0;
     margin: 0 0 15px;
+    width: 100%;
 }
 
-.leftFooter1 {
+.leftFooter1z {
     height: 180px;
     width: 30%;
     display: flex;
@@ -207,7 +208,7 @@ body {
 
 }
 
-.leftFooter1 p {
+.leftFooter1z p {
     font-size: 13px;
     color: white;
     background-color: black;
@@ -255,7 +256,7 @@ a {
 }
 
 .footBottom1 {
-    padding-left: 200px;
+    padding-left: 154px;
     height: 100px;
 
     padding-top: 30px;
@@ -275,11 +276,6 @@ a {
       .headerLeft1 {
         padding-left: 0;
         text-align: center;
-      }
-    
-      .headerLeft1 img {
-        width: 50px;
-        height: 50px;
       }
     
       .headerTitles1 {
@@ -352,6 +348,7 @@ a {
     .custom-text{
         padding: 0;
         margin: 0;
+        width: 100%;
     }
     /* FOOTER */
    .footer1a{
@@ -361,11 +358,14 @@ a {
     align-items: center;
     margin: 0;
     padding: 0;
+    width: 100%;
    } 
 
-   .leftFooter1{
+   .leftFooter1z{
     text-align: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
    }
    .centerFooter1{
     text-align: center;
@@ -404,4 +404,20 @@ padding-top: 10px;
 a{
     color: white;
 }
+    .location{
+        margin: 0;
+        padding: 0;
+    }
+    .locDiv{
+        padding-left: 78px;
+    }
+    .aboutUS{
+        text-align: center;
+        /* margin-right: 20px; */
+        padding-right: 35px;
+    }
+    .customService{
+        width: 100%;
+        padding-right: 30px;
+    }
 }

@@ -139,3 +139,24 @@
 
     padding-top: 30px;
 }
+
+@media (max-width: 768px) {
+    .mainL1{
+        width: 100%;
+    }
+    .headerL1{
+        width: 100%;
+    }
+    .centerR1{
+        width: 100%;
+    }
+    .loginFormRs{
+        width: 100%;
+    }
+    #formBasicEmail{
+        width: 100%;
+    }
+    .loginButton1{
+        width: 100%;
+    }
+}
